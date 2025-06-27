@@ -1,5 +1,8 @@
-#include <iostream>
+//
+// Created by mdperez on 6/26/25.
+//
 #include <vector>
+#include <iostream>
 #include <unordered_map>
 
 using namespace std;
@@ -29,6 +32,5 @@ int main() {
     for (int i : result) {
         cout << i << " ";
     }
-    cout << endl;
     return 0;
 }
